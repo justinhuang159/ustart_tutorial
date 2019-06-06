@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 
 	"github.com/olivere/elastic"
-	"github.com/sea350/ustart_tutorial/customer/customerpb"
+	"github.com/justinhuang159/ustart_tutorial/customer/customerpb"
 )
 
 // Lookup retreives a customer doc using a certain UUID

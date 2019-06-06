@@ -98,3 +98,4 @@ func mapping(indexName string) string {
 			}
 		}
 	}`
+}

@@ -1,7 +1,7 @@
 package storage
 
 import (
-	elasticstore "github.com/justinhuang159/ustart_tutorial/customer/storage/elastic"
+	elasticstore "github.com/justinhuang159/ustart_tutorial/car/storage/elastic"
 )
 
 // NewES determines the runtime behavior of the ElasticSearch-backed customer server

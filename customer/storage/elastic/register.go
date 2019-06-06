@@ -3,7 +3,7 @@ package elasticstore
 import (
 	"context"
 
-	"github.com/sea350/ustart_tutorial/customer/customerpb"
+	"github.com/justinhuang159/ustart_tutorial/customer/customerpb"
 )
 
 //Register creates a new ES document for a new registering customer

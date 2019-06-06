@@ -3,7 +3,7 @@ package storage
 import (
 	"context"
 
-	"github.com/sea350/ustart_tutorial/customer/customerpb"
+	"github.com/justinhuang159/ustart_tutorial/customer/customerpb"
 )
 
 // Storage is a database-agnostic interface for persisting customer data
