@@ -10,6 +10,8 @@ func (dbConn *SQLStore) Init(ctx context.Context) error {
 	dateStart text NOT NULL,
 	dateReturned text,
 	rate float NOT NULL,
+	totalDue float NOT NULL,
+	amtPaid float NOT NULL,
 );`
 
 }

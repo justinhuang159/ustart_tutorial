@@ -3,10 +3,10 @@ package record
 import (
 	"context"
 
-	"github.com/sea350/ustart_tutorial/customer/customerpb"
+	"github.com/sea350/ustart_tutorial/record/recordpb"
 )
 
-// Pull retreives all customer data based off of a username
+// Insert retreives all customer data based off of a username
 func (record *Record) Insert(ctx context.Context, req *recordpb.InsertRequest) (*recordpb.InsertResponse, error) {
 
 	intVal, err := strconv.Atoi(req.Rate)

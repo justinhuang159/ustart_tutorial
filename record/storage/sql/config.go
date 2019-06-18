@@ -20,6 +20,6 @@ func NewConfig() *Config {
 		DBName:       "",
 		Username:       "",
 		Password:       "",
-		RecordTableName: ""
+		RecordTableName: "",
 	}
 }

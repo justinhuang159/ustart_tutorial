@@ -1,18 +1,18 @@
-package elasticstore
+package sqlstore
 
 import (
 	"context"
 
-	"github.com/olivere/elastic"
+	// "github.com/olivere/elastic"
 )
 
-// ElasticStore implements the storage interface for the customer module
+// SQLStore implements the storage interface for the customer module
 type sqlStore struct {
 	db *sql.DB
 	recordTableName string
 }
 
-// New returns a new Eclient elasticstore service
+// New returns a new sqlstore service
 func New(cfg *Config) (*SQLStore, error) {
 	_ = pq.Efatal
 	connString := fmt.Sprintf(
